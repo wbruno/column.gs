@@ -57,10 +57,12 @@
 .space-bottom-big { margin-bottom: 40px !important; }
 
 @media only screen and (max-width: 960px) {
-    .column-full { width: auto; padding: 0 20px; }
+    [class*="column-"] { margin-right: 5%; }
+
+    .column-full { width: auto; padding: 0 20px; margin-right: 0; }
     .column-full .column-full { padding: 0; }
 
-    .column-half { width: 50%; margin-right: 0; }
+    .column-half { width: 47.5%; margin-right: 0; }
     .column-third { width: 30%; }
     .column-quarter { width: 21%; }
     .column-sixth { width: 12.5%; }
@@ -101,6 +103,7 @@
     .column-full .column-one-twelfths:nth-child(3n) { margin-right: 0; }
 }
 @media only screen and (max-width: 480px) {
+    .column-half.space-right { margin-right: 0; }
     .column-half { width: auto; float: none; }
     .column-two-thirds .column-third { width: auto; }
     .column-full { padding: 0 3%; }

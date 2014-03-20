@@ -42,7 +42,7 @@
 
 
 
-.content { margin: 0 auto; }
+.content { margin: 0 auto; padding: 0 15px; }
 
 
 .space-bottom-small { margin-bottom:10px !important; }
@@ -50,54 +50,22 @@
 .space-bottom-big { margin-bottom: 40px !important; }
 
 @media only screen and (max-width: 1170px) {
-    .column-full { width: auto; padding: 0 30px; }
-    .column-full .column-full { padding: 0; }
-
-    .column-half { width: 50%; margin-right: 0; }
-    .column-third { width: 30%; }
-    .column-quarter { width: 21%; }
-    .column-sixth { width: 12.5%; }
-
-    .column-two-thirds { width: auto; }
-
-    .column-third .column-sixth { width: 50%; }
-
-    .column-one-twelfths { width: 12.5% }
-    .column-full .column-one-twelfths:nth-child(6n) { margin-right: 0; }
-
-    .space-right { margin-right: 5%; }
-    .space-left { margin-left: 5%; }
+    [class*="column-"] { margin-right: 0; }
+    .column-full { width: auto; padding: 0 15px; margin-right: 0; }
     img { max-width: 100% !important; height: auto !important; }
-
-
-    .column-two-thirds .column-third { width: 47%; clear: none; }
-        .column-two-thirds .column-third.fleft { float: left; }
-        .column-two-thirds .column-third.fright { float: right; }
-
-    .column-third .column-third,
-    .column-half .column-half { width: 100%; }
-    .column-half .column-sixth { width: 33%; margin-right: 0; }
-    .column-third .column-sixth { width: 50%; margin-right: 0; }
 }
 @media only screen and (max-width: 740px) {
-    .column-three-quarters { width: 100%; float: none; }
+
     .space-bottom { margin-bottom: 10px; }
     .space-bottom-big { margin-bottom: 25px; }
 }
 @media only screen and (max-width: 660px) {
-    .column-two-thirds { width: 100%; float: none; }
-    .column-third { width: auto; float: none; margin-left: auto; margin-right: auto; clear: both; }
     .column-quarter { width: 50%; margin-right: 0; }
-    .column-sixth { width: 33.33%; margin-right: 0; }
-
-    .column-one-twelfths { width: 30% }
-    .column-full .column-one-twelfths:nth-child(3n) { margin-right: 0; }
 }
 @media only screen and (max-width: 480px) {
     .column-half { width: auto; float: none; }
-    .column-two-thirds .column-third { width: auto; }
     .column-full { padding: 0 3%; }
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 320px) {
 
 }
