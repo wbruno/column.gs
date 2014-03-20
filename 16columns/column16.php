@@ -1,7 +1,7 @@
 <?php
 
 
-require 'ColumnGS.php';
+require '../ColumnGS.php';
 $column = new ColumnGS(45, 30);
 
 
