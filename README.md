@@ -1,21 +1,21 @@
 # Column Grid System
 
 
-Sistema de GRID 960px para CSS
+Sistema de GRID Fluida para CSS, pensado em colunas.
 
 ``` html
 <article id="content" class="content column-full">
-    <h1 class="column-full">Column GS</h1>
+    <h1>Column GS</h1>
 
-    <div class="column-third fleft space-right">
+    <div class="column-third">
         <h2>Lorem ipsum dolor</h2>
         <p>Lorem ipsum dolor sit amet, ..</p>
     </div><!-- . -->
-    <div class="column-third fleft">
+    <div class="column-third">
         <h2>Lorem ipsum dolor</h2>
         <p>Lorem ipsum dolor sit amet, ..</p>
     </div><!-- . -->
-    <div class="column-third fright">
+    <div class="column-third">
         <h2>Lorem ipsum dolor</h2>
         <p>Lorem ipsum dolor sit amet, ..</p>
     </div><!-- . -->
