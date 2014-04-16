@@ -36,7 +36,7 @@
 
 .space-bottom-big { margin-bottom: 60px }
 .space-bottom { margin-bottom: 40px }
-.space-bottom-small { margin-bottom: 10px }
+.space-bottom-small { margin-bottom: 20px }
 
 
 .fleft { float: left }
@@ -60,6 +60,9 @@
 
     .column-full { width: auto; }
     .content { padding-left: 15px; padding-right: 15px; }
+}
+@media only screen and (max-width: 1024px) {
+    .space-bottom-big { margin-bottom: 40px }
 }
 @media only screen and (max-width: 1060px) {
     [class*="column-"].content { width: 100%; }
